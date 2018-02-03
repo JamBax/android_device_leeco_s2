@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+	Developed by andr68rus
+-->
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:key="batt"
+        android:title="@string/battery_settings_title" >
+
+        <SwitchPreference
+            android:key="qc_setting"
+            android:defaultValue="false"
+            android:title="@string/qc_title"
+            android:summary="@string/qc_summary" />
+
+	</PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="akt_profile"
+        android:title="@string/akt_profile_title" >
+
+		<ListPreference
+			android:key="akt"
+			android:title="@string/akt_title"
+			android:summary="@string/akt_summary"
+			android:defaultValue="1"
+			android:entries="@array/akt_profiles"
+			android:entryValues="@array/akt_values"
+			android:dialogTitle="@string/akt_dialogTitle" />
+
+	</PreferenceCategory>
+	
+    <PreferenceCategory
+        android:key="camera_pref"
+        android:title="@string/camera_pref_title" >
+
+        <SwitchPreference
+            android:key="hal3"
+            android:defaultValue="false"
+            android:title="@string/hal3_title"
+            android:summary="@string/hal3_summary" />
+
+	</PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="screenoff_pref"
+        android:title="@string/screenoff_pref_title" >
+
+
+        <SwitchPreference
+            android:key="devidle"
+            android:defaultValue="false"
+            android:title="@string/devidle_title"
+            android:summary="@string/devidle_summary" />
+
+        <SwitchPreference
+            android:key="killtopapp"
+            android:defaultValue="false"
+            android:title="@string/killtopapp_title"
+            android:summary="@string/killtopapp_summary" />
+
+        <!-- SwitchPreference
+            android:key="idlecpu0"
+            android:defaultValue="false"
+            android:title="@string/controlcpu0_title"
+            android:summary="@string/controlcpu0_summary" />
+
+        <SwitchPreference
+            android:key="idlecpu2"
+            android:defaultValue="false"
+            android:title="@string/controlcpu2_title"
+            android:summary="@string/controlcpu2_summary" / -->
+
+        <SwitchPreference
+            android:key="wbsoff"
+            android:defaultValue="false"
+            android:title="@string/wb_title"
+            android:summary="@string/wb_summary" />
+
+
+	</PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="screenon_pref"
+        android:title="@string/screenon_pref_title" >
+
+        <SwitchPreference
+            android:key="semiidle"
+            android:defaultValue="false"
+            android:title="@string/semiidle_title"
+            android:summary="@string/semiidle_summary" />
+
+        <SwitchPreference
+            android:key="autosuspend"
+            android:defaultValue="false"
+            android:title="@string/autosuspend_title"
+            android:summary="@string/autosuspend_summary" />
+
+        <!-- SwitchPreference
+            android:key="autosuspendcpu0"
+            android:defaultValue="false"
+            android:title="@string/controlcpu0_title"
+            android:summary="@string/controlcpu0_summary" />
+
+        <SwitchPreference
+            android:key="autosuspendcpu2"
+            android:defaultValue="false"
+            android:title="@string/controlcpu2_title"
+            android:summary="@string/controlcpu2_summary" / -->
+
+        <SwitchPreference
+            android:key="wbson"
+            android:defaultValue="false"
+            android:title="@string/wb_title"
+            android:summary="@string/wb_summary" />
+
+	</PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="app_settings"
+        android:title="@string/app_settings_title" >
+
+	<Preference android:title="@string/prefs_battery_saver_title" 
+		    android:summary="@string/prefs_battery_saver_summary">
+	    <intent android:action="android.settings.IGNORE_BATTERY_OPTIMIZATION_SETTINGS"/>
+	</Preference>
+
+	<Preference android:title="@string/prefs_app_options_title" 
+		    android:summary="@string/prefs_app_options_summary">
+	    <intent android:action="android.settings.APP_OPS_SETTINGS"/>
+	</Preference>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="imssrv_pref"
+        android:title="@string/imssrv_pref_title" >
+
+
+        <SwitchPreference
+            android:key="imssrv"
+            android:defaultValue="false"
+            android:title="@string/imssrv_title"
+            android:summary="@string/imssrv_summary" />
+
+	</PreferenceCategory>
+
+</PreferenceScreen>

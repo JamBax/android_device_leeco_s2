@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2015 The CyanogenMod Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="lepref_title">Leeco Extras</string>
+ 
+    <!-- Battery -->
+    <string name="battery_settings_title">Батарея</string>
+    <string name="qc_title">Быстрая зарядка</string>
+    <string name="qc_summary">Включение/выключение быстрой зарядки</string>
+
+    <!-- AKT Profiles -->
+    <string name="akt_profile_title">AKT профили</string>
+    <string name="akt_title">AKT профили</string>
+    <string name="akt_summary">Выбор AKT профиля</string>
+    <string name="akt_dialogTitle">Выберите нужный вам профиль</string>
+
+    <!-- Camera -->
+    <string name="camera_pref_title">Камера</string>
+    <string name="hal3_title">Camera 2 API</string>
+    <string name="hal3_summary">Вкл/выкл режима API2</string>
+
+    <string name="screenoff_pref_title">Экран выключен</string>
+    <string name="screenon_pref_title">Экран включен</string>
+
+    <string name="devidle_pref_title">DeviceIdle</string>
+    <string name="devidle_title">Device Idle</string>
+    <string name="devidle_summary">Вкл/выкл режима Idle. При выключении ВСЕ функции сохранения энергии будут отключены.</string>
+
+    <string name="killtopapp_pref_title">Закрывать активное ариложение</string>
+    <string name="killtopapp_title">Закрывать \'запрещенное\' активное приложение</string>
+    <string name="killtopapp_summary">Вкл/Выкл закрытие \'запрещенного\' активного приложения при выключении экрана</string>
+
+    <string name="semiidle_pref_title">SemiIdle</string>
+    <string name="semiidle_title">Режим SemiIdle</string>
+    <string name="semiidle_summary">Вкл/выкл режима SemiIdle при включенном экране. Отключает ВСЕ синхронизации на батарее!</string>
+
+    <string name="autosuspend_pref_title">Autosuspend</string>
+    <string name="autosuspend_title">Режим сна с включенным экраном</string>
+    <string name="autosuspend_summary">Вкл/выкл режима сна с включенным экраном. Может вызывать лаги.</string>
+
+    <string name="controlcpu0_title">Управлять LITTLE ядрами</string>
+    <string name="controlcpu0_summary">Вкл/выкл управления LITTLE ядрами</string>
+
+    <string name="controlcpu2_title">Управлять BIG ядрами</string>
+    <string name="controlcpu2_summary">Вкл/выкл управления BIG ядрами</string>
+
+    <string name="wb_title">Блокировщик вейклоков ядра</string>
+    <string name="wb_summary">кл/выкл блокировщика вейклоков ядра</string>
+
+    <string name="app_settings_title">Настройки приложений</string>
+
+    <string name="prefs_battery_saver_title">Белый список</string>
+    <string name="prefs_battery_saver_summary">Белый список</string>
+
+    <string name="prefs_app_options_title">Настройки приложений</string>
+    <string name="prefs_app_options_summary">Настройки приложений</string>
+
+    <string name="imssrv_pref_title">IMS Services</string>
+    <string name="imssrv_title">IMS Services</string>
+    <string name="imssrv_summary">Вкл/выкл сервисов IMS</string>
+
+</resources>
