@@ -302,7 +302,11 @@ PRODUCT_COPY_FILES += \
 # LePref settigs modules
 PRODUCT_PACKAGES += \
     LePref
-    
+
+# FlipFlap
+PRODUCT_PACKAGES += \
+    FlipFlap
+
 # Wifi
 PRODUCT_PACKAGES += \
     hostapd \
