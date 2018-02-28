@@ -19,4 +19,4 @@ Rear Camera  | 16 MP, f/2.0, phase detection autofocus, dual-LED (dual tone) fla
 Front Camera | 8 MP, f/2.2, 1.4 µm pixel size, 1080p
 Release Date | April 2016
 
-![LeEco Le 2](https://github.com/JamBax/LeEco_ressources/blob/master/bnQCeCb8aGJcmTEpHYyj0vz0Ouuum.jpg "LeEco Le 2")
+![LeEco Le 2](https://github.com/JamBax/LeEco_ressources/blob/master/s2.png?raw=true "LeEco Le 2")
