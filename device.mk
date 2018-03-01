@@ -304,8 +304,8 @@ PRODUCT_PACKAGES += \
     LePref
 
 # FlipFlap
-PRODUCT_PACKAGES += \
-    FlipFlap
+#PRODUCT_PACKAGES += \
+#    FlipFlap
 
 # Wifi
 PRODUCT_PACKAGES += \
