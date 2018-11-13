@@ -8,10 +8,6 @@
     "target_path": "kernel/leeco/msm8976"
   },
   {
-    "repository": "android_packages_apps_FlipFlap",
-    "target_path": "packages/apps/FlipFlap"
-  },
-  {
     "repository": "android_hardware_sony_thermanager",
     "target_path": "hardware/sony/thermanager"
   },
